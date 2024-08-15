@@ -1,0 +1,132 @@
+
+
+python
+Anaconda 
+
+ file.py
+set PYTHON_HOME=path
+
+which python = 
+
+
+--------------------
+
+
+Python
+
+- Programming language 
+- interpreter
+- scripting language
+- open souce
+- general purpose  
+- simple 
+- less code
+- object 
+- version 3.12
+- varible   : object
+- Datatypes
+- dynamically typed
+   a=10
+- python shell / Read Evaulate Print Loop 
+Programming paradigm
+
+- Procedural programming :  Procedure/ function
+  named block
+  reusability
+   C, basic, python
+
+
+  def add(a,b):
+	c= a+b
+	return c
+
+add(2,3)
+
+- Object Oriented Programming : Things/entity : java, .Net, python
+  {data + methods} = class / object
+
+class cust:
+	x
+	def add(a,b):
+		x= a+b
+		return x
+
+
+object.add(2,3)
+
+  Garbage Collection
+
+- Functional Programming : Python
+
+	* Pure object 
+
+
+
+
+
+
+
+----------------- 
+block/scope
+if()
+ {
+
+
+}
+else
+{
+
+}
+
+begining of scope
+:
+
+if1 conditions :
+	stm1
+	stm2
+	stm3
+	if2 conditions :
+		sm1
+		sm2
+		sm3
+	else :
+		elsm1
+		elsm2
+else :
+	el1
+	el2
+
+
+
+
+operand1 opearation operand2
+ 3+2.0
+ 3.0 +2.0  = 5.0		//implicit casting
+3+2  = 5			/ explicit casting
+
+# : single line comment
+`multiple line comments
+
+`
+
+def show() :
+	print("hello") 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
