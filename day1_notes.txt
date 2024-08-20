@@ -114,6 +114,92 @@ def show() :
 	
 
 
+-----------------------
+Day2
+-----------------------
+
+
+Python
+
+
+- download python: shell/ 
+- IDE :
+	*) anaconda 
+		jupyter
+		pycharm
+	*) pycharm
+
+- anaconda cloud
+- colab : jupyter notebook  : gmail/google drive
+- jupyter cloud
+
+
+---- varible
+
+
+- atoz, A to Z, 0-9
+- num1, num_1
+- 1num  // invalid
+- _num	: protected
+- __num : private
+- implicitly defined
+
+
+std datatypes
+
+
+- immutable : value cannot be changed
+Number
+	int
+		unsinged int
+		signed int
+	float
+	complex
+	hex
+String
+	''
+	""
+name ="This is India"
+[0]
+[0:2]
+slicing
+[start:end:incr]
+[ start:]
+[:end]
+membership
+in
+not in 
+
+formatted string
+
+print("my name is %i ",a)
+
+%s	- string
+%i	- integer
+%d	- octal
+%x	- hexadecimal
+%c	- character
+%f /%g	- float
+%e	- exponential
+
+Tuple
+	- collection of hetrogenous values
+	- ()
+	- repeat
+
+
+- mutable : value can change
+List
+	- collection of hetrogenous values
+	- [] 
+	- repeat
+Dictionary
+Sets
+
+
+
+
+
 
 
 
