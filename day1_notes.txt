@@ -196,7 +196,83 @@ List
 Dictionary
 Sets
 
+---------------------
+Day3
+----------------------
+number
 
+   binary - base 2   0b		- bin()
+   octal - base 8    0o70	- oct()
+   hexadecimal - base 16   0xa  - hex()
+
+  decimal  - base 10
+
+
+for i in [1,56,7,19]:
+	print(i)
+
+l1
+
+
+----------
+list/tuple : hetrogenous, indexed ( 0....n-1)
+		ordered
+	[,,]
+	(,,)
+Dictionary : hetrogenous , custom_indexed /key
+		{k:v,k1:v2}
+		ordered
+
+Set
+	: indexed
+	: unique elements
+	: ordered
+	:{}
+
+
+
+
+-----------
+
+List comprehension
+
+- generate a new list
+
+
+newlist =[ exp for val in collection]
+
+newlist =[ exp for val in collection if<exp>]
+newlist =[ exp for val in collection if <exp2> and <exp2>]
+newlist =[ exp for val in collection1 for val in collection1 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 
