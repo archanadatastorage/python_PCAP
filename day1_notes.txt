@@ -245,6 +245,172 @@ newlist =[ exp for val in collection if<exp>]
 newlist =[ exp for val in collection if <exp2> and <exp2>]
 newlist =[ exp for val in collection1 for val in collection1 ]
 
+------day4---------------
+
+
+PVM
+
+list comrehension
+
+newname=[exp for i in (ramge)]
+newname=[exp for i in (ramge) if]
+newname=[exp for i in (ramge) for j in l2]
+
+
+python file
+- name 
+- .py
+- code
+
+
+Execute
+-
+
+var = input("msg")
+
+
+function 
+- optional argu
+- 1 return
+call function
+
+fun()
+built-in : shipped with python
+
+UDF : user defined function
+
+def namefun(parameters):
+	body
+
+*argv		- tuple :()
+**kwargs	- dictionary {}
+
+addition +
+subtraction -
+multiplication *
+modulus %
+exponent **
+floor divivion //
+division /
+
+conditional op
+<
+>
+<=
+>=
+==
+!=
+
+logical operator
+
+condition1  and con2
+or
+not
+
+if cons :
+	body
+
+for
+while
+
+bitwise
+
+val1 & val2
+
+2 & 3
+
+10 & 11
+
+10
+11
+
+10
+
+
+val1 | val2
+2 | 3
+10
+11
+
+11
+
+XOR  ^
+
+2^3
+10
+11
+
+01
+
+NOT ~
+ ~2
+
+10
+
+
+right shift
+>>
+leftshift
+<<
+
+2 >> 3
+00010
+2<<3
+10000
+
+
+x =0
+
+while x<10:
+	if x%2 ==0 :
+		continue
+	print(x)	
+	x = x+1	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
