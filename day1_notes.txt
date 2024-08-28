@@ -466,6 +466,62 @@ except:
 	handling
 
 
+----------------------
+
+= input("msg")
+(, c,input,)
+
+import sys
+
+pip install 
+
+module
+
+__name__
+a = a+100
+
+Functional programming
+	- pure object oriented
+	- data immutability
+	- pure function
+
+def add(a,b):
+	c =a+b
+	return c
+
+	- First class value : functions are object/value
+	- higher order function/value  : pass function as arguments
+	- what to do rather how to do
+
+l1 = [2,8,45]
+l2= []
+for i in l1:
+	l2.insert(i+100)
+
+	- map : 1 element -> op -> 1 element
+	- anaoymous function / lambda expression
+
+lambda a,b: a+b
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
 
 
 
