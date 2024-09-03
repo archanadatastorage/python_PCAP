@@ -503,6 +503,70 @@ for i in l1:
 
 lambda a,b: a+b
 	
+---------------------
+object Oriented program
+
+{attributes + methods}
+
+**encapsulation : create class
+
+- instance varible/attributes		: self
+- regular methods			: self
+- constructor  : __init__		: self
+- class attributes			
+- class methods 			: cls
+- static method 			: 
+- Access specifier
+	public			: default	:
+	protected		: class/subclass	: _
+	private			: class			:__
+	
+** multiple classes
+inheritance = Is-A relationship
+composition = Has-A relationship
+
+1) Inheritance :
+  -reusability
+  - Parent class/ super class
+  - child class / sub class
+
+	Types
+
+	- Single inheritance 
+		1 child class : 1 Parent class
+
+	- Multiple inheritance 
+		1 child class : Multiple Parent class
+
+2) Composition
+
+	coordiantes : x,y
+	time  
+	clas date:
+		day,month,year
+
+	emp:
+		name String
+		sal float
+		ph string
+		bday date
+
+trianle
+	Point1 : cood
+	Point2
+
+
+
+**Abstract  : an incomplete class
+
+  no abstract class in python
+can not instantiate
+module abc
+
+
+
+
+
 
 
 
