@@ -563,7 +563,23 @@ trianle
 can not instantiate
 module abc
 
+--------------------
 
+
+Encapsulation
+
+multiple classes/ Association
+
+- inheritance : is -A
+ * Single : 1
+ * Multiple : multiple in
+
+  Diamond
+ ** Abstract class
+   module abc .... ABC, @abstactmethod
+
+- Composition : has-a
+	
 
 
 
