@@ -580,6 +580,113 @@ multiple classes/ Association
 
 - Composition : has-a
 	
+-----------------------------
+encapsulation
+	class
+	inner class
+multiple classess
+- inheritance :  is-a
+  single
+  multiple
+- Composition : Has-a
+   inner class
+- abstract
+-polymorphism
+	overriding : parent-child : same name and same signature method 
+	overloading : same class : different signature of the same name method
+-name-mangling
+
+
+-----
+
+Magic method / Dunder (Double underscore)
+
+__init__	: constructor
+__name__
+__del__		: destructor
+__str__
+__repr__	: logging
+__add__	
+
+
+India
+1,2,3
+k:1,k2:3
+
+len
+
+
+Point  : x,y
+
+line(p1,p2)
+
+
+--------------------
+
+Decorator
+
+procedural : function/procedure
+object oriented programming : class -> object
+Functinal programming:
+	pure object
+	data immutability
+	pure function
+	first order value : treat function as an object
+	higher order function : 
+		- another function as parameter
+		- return another function
+ 
+	map(),filter,reduce
+	lambda expression
+	closure
+
+Namespace : directory of varibles of a fun/class
+	 : 
+
+def calculate(val1,val2,val3):
+    c=val1(val2,val3)
+    return c
+
+calculate(2,34,5)
+
+Nested Function :
+	create function winthin a function
+
+	
+Decorator : modify a function
+
+
+original function -> new function			
+			use the original function
+			+ ur code
+
+function as object
+nested function
+pass function as parameter
+return fun 
+alias for fun
+
+@
+
+Multiple decorators for single function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
