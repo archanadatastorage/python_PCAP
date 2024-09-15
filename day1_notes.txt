@@ -671,6 +671,55 @@ alias for fun
 Multiple decorators for single function
 
 
+---------------
+
+r
+rb
+r+
+a
+w
+
+Decorator : modify a function
+
+function
+class
+	- built-in
+		@classmethod
+		@staticmethod
+		@property : create a attribute
+			.getter			default
+			.setter
+			.deleter 
+	- custom 
+
+
+Callable
+  object that is callable
+  function
+  callable()
+	True : if an object is callable
+	False : if not
+__call__()
+
+add(2,3)
+
+add.__call__(2,3)
+------------------------------
+
+module search path
+
+import classDecorator
+
+- current directory
+- PYTHONPATH
+- standard modules
+- site-package/lib
+
+sys.path
+
+
+sys.argv
+os
 
 
 
