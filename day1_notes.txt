@@ -721,6 +721,115 @@ sys.path
 sys.argv
 os
 
+------------------------------------------------------------------------
+
+__call__()
+
+import sys
+sys.path
+sys.path.append()
+
+
+os
+random : random number generation
+
+datetime : date,time,combination
+
+json
+
+_id
+- schema
+   {"field":value,"field2":value2...}
+int, boolean, array,object, string,null
+- semi strcutured/ flexible
+ {"age":34,"name":"Ram"},
+ {"name":"sia"}
+ {"name":"rawan","occupasion":"king"}
+- humanread
+- 
+import json
+1. python => json	- write
+str
+dumps() - doesn't create a file
+dump() - create a file
+
+
+2. JSON => python	- read
+loads()
+load()
+
+
+------------------------
+
+module : .py file
+Packages
+
+- folder
+	- modules
+
+
+Project
+	- package
+		- __init__.py		from 3 this is optional
+		- module.py
+		- subpkg
+			-__init__.py
+			- modulesub.py
+
+
+
+- root dir / current dir
+
+- relative path
+- importing package from parent 
+
+
+MyProject
+	-main.py
+	- my_package
+		- __init__.py
+		- String-op.py
+		-subpkg1
+			- __init__.py
+			- maths_op.py
+			-another-subpkg
+				-__init__.py
+				- adv-math.py
+				-stats.py
+		-subpkg2
+			-__init__.py
+			-utils.py
+			-helper.py
+
+
+Root dir : Project
+Parent dir - 1 dir above
+	adv-math.py  : subpkg1
+	help.py :my_package
+
+relative path
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
