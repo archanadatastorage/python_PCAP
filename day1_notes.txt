@@ -809,6 +809,57 @@ Parent dir - 1 dir above
 
 relative path
 
+-------------------
+- __ini__.py -> varible access
+
+
+septemberProject			-> root
+main.py
+	Mypackage
+		- __init__.py
+		- string-op.py
+		- subpkg1
+			-__init__.py
+			- math-op.py
+			- subsubpkg
+				- __init__.py
+				- adv-math.py
+				- stats.py
+		-subpkg2
+			-__init__.py
+			-utils.py
+			- helper.py
+
+__init__.py : when pck is loaded in memory
+import Mypackage
+import Mypackage.subpkg1
+ reaload()
+
+root		
+current dir 
+parent dir 
+
+;
+:
+package path
+sys.path.append("")
+
+
+----------------------
+
+import mypackage   : no subpkg/module
+
+Parent dir import
+
+- same pkg
+- you should run your python script from the pkg where the parent dir or above  
+
+
+.		current dir
+.. 		one dir above
+...		two dir above
+....		three dir above
+
 
 
 
