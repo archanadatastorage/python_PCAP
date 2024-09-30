@@ -860,7 +860,92 @@ Parent dir import
 ...		two dir above
 ....		three dir above
 
+--------------------
+Using the __name__ variable in a logger allows you to quickly identify the source of log messages.
 
+By default, log messages are emitted to the console. 
+
+To configure the logging system to emit log messages to other destinations, you need to create a handler and attach it to the logger. 
+
+---------------------
+
+
+logging 
+
+
+--------------------------------
+
+Generator
+
+
+Iteration : process
+Iterable : conatiner  : __iter__()
+Iterator : __iter__(),__next__()
+
+l1 =['tea','pen','pencils','eraser']
+
+i_num = l1.__iter__()
+
+l1 - iterable		: __iter__()
+i_num - iterator	: __iter__(),__next__()
+
+inum2 = i_num.__iter__()
+type(inum2)
+
+
+Power of Two
+
+16 : 1,2,4,8,16
+
+32 : 1,2,4,8,16,32
+--------------------------------------------
+
+
+Array
+Series
+DataFrame
+
+
+
+Array
+
+import numpy as np
+
+- homegenous
+- better memory management
+
+-----------------
+
+
+
+Pythontic 
+
+a=10;
+
+l1 = [1,2,4,5,6]
+l2 =[]
+for i in l1;
+	l2.append(i+100)
+
+l2 = [x+100 for x in l1]
+
+
+name mangling
+
+
+---------------
+
+DataFrame
+
+tabular rep of data
+
+
+table
+	columns
+	row
+	data
+
+- hetrogenous elements
 
 
 
