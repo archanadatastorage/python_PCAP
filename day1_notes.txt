@@ -948,7 +948,53 @@ table
 - hetrogenous elements
 
 
+-------------------------------
+  l1 = [1,2,3,4]
+l2=[]
+for i in l1:
+	l2.append[i]
 
+l2 = [i for i in l1]
+
+---------------
+
+ pythonics  -  
+
+
+-----------
+numpy
+  pandas 
+
+ Series
+ - hetrogenous
+ - single index
+ - immutable index
+ DataFrames 
+ - hetrogenous
+  - row index   axis=0
+- column index  axis=1
+ - immutable index
+
+np.nan  : null/ missing value
+
+isNull()
+isNotNull()
+
+
+dropna()
+fillna()
+
+inplace = True
+
+drop
+sum
+mean
+idxmax
+max
+describe
+
+
+duplicate
 
 
 
