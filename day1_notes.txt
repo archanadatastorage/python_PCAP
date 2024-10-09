@@ -996,6 +996,86 @@ describe
 
 duplicate
 
+-------------------------------
+
+Custom Exception
+
+Context Manager
+
+Pytest
+
+python debugging using jupyter notebook
+
+Custom Exception
+
+try 
+
+except
+
+else
+
+finally
+
+
+raise : expliciltly raise an exception
+
+Custom Exception
+
+class myexp(Exception):
+
+---------
+
+
+File handling
+
+
+f=open("filename","mode")
+read/write
+f.close()
+
+
+
+Context Manager
+
+
+with
+
+
+custom context manager
+
+1. using class
+class name:
+
+	def __init__()
+
+	def __enter__()
+
+	def __exit__()
+
+2. using function
+	possible decorator
+
+--------------------------
+
+pytest Selinium
+
+pip install pytest
+
+- name of test file must starts with test_ or ends with _test
+- name of the test function must start start test_
+- pytest : tests all the test_ files from the pkg
+- -v : verbose
+- -s : print the print log
+- -k : function name exp
+- -m : custom marker
+
+Marker 
+
+
+fixture
+
+setup () : called 1 at the beginning
+close() : called 1 at the end
 
 
 
